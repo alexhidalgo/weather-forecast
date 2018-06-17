@@ -1,12 +1,12 @@
 import React from 'react'
 import Nav from './Nav'
-import Search from './Search'
+import MainContainer from './MainContainer'
 
 export default function App () {
   return (
     <div>
       <Nav />
-      <Search />
+      <MainContainer />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Search from './Search'
 
 export default function Nav (props) {
   return (
@@ -6,12 +7,7 @@ export default function Nav (props) {
       <p>
         Weather App
       </p>
-      <div>
-        <input />
-        <button>
-          Get Weather
-        </button>
-      </div>
+      <Search />
     </div>
   )
 }

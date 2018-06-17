@@ -6,4 +6,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: rgba(252,90,44,.89);
+  color: white;
+}
+
+.main-container {
+  background-image: url('http://artist-submarine-48713.netlify.com/app/images/pattern.svg');
+  color: white;
 }
