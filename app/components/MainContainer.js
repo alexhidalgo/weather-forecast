@@ -1,12 +1,7 @@
 import React from 'react'
 import Search from './Search'
-import { fetchCity } from '../utils/api'
 
 class MainContainer extends React.Component {
-  async componentDidMount () {
-    const city = 'london'
-    const cityData = await fetchCity(city)
-  }
   render () {
     return (
       <div className='main-container'>
