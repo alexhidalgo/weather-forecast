@@ -1,12 +1,19 @@
 import React from 'react'
 
-export default function Search () {
-  return (
-    <div>
-      <input />
-      <button>
-        Get Weather
-      </button>
-    </div>
-  )
+class Search extends React.Component {
+  state = {
+    city: null
+  }
+  render () {
+    return (
+      <div>
+        <input />
+        <button>
+          Get Weather
+        </button>
+      </div>
+    )
+  }
 }
+
+export default Search
